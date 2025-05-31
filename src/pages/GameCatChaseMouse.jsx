@@ -10,7 +10,7 @@ const GameCatChaseMouse = () => {
   const [catChasing, setCatChasing] = useState(false);
 
   const catchDistance = 40;
-  const speed = 3;
+  const speed = 6;
 
   const catPosRef = useRef(catPos);
   catPosRef.current = catPos;
