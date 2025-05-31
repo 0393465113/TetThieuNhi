@@ -17,7 +17,7 @@ const MiniGamePage = () => {
         return <GameCatChaseMouse />;
       default:
         return (
-          <div className="flex flex-col items-center mt-8">
+          <div className="flex flex-col items-center">
             <h2 className="text-4xl font-bold text-pink-500">🎮 Chọn Một Trò Chơi Để Bắt Đầu!</h2>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-4 w-full max-w-3xl">
               <button

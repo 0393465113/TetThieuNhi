@@ -121,7 +121,10 @@ const GameCatChaseMouse = () => {
     <div className="flex justify-center w-full">
       <div
         ref={gameRef}
-        className="relative my-8 w-[90vw] h-[90vw] max-w-[600px] max-h-[600px] border-4 border-gray-900 rounded-2xl bg-gray-100 overflow-hidden touch-none select-none cursor-grab"
+        className="relative my-8 w-[90vw] h-[90vw] max-w-[600px] max-h-[600px] border-4 rounded-2xl 
+          bg-gradient-to-br from-yellow-200 via-pink-200 to-blue-200 
+          border-pink-500 shadow-2xl overflow-hidden 
+          touch-none select-none cursor-grab"
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
@@ -145,24 +148,25 @@ const GameCatChaseMouse = () => {
 
         {/* Mèo */}
         <img
-  src="https://res.cloudinary.com/disdu197t/image/upload/v1748671164/image__1_-removebg-preview_aqddp0.png"
-  alt="cat"
-  draggable={false}
-  className="absolute w-17 h-17 z-5 transition-transform duration-300 ease-in-out"
-  style={{
-    left: catPos.x - 35,
-    top: catPos.y - 35,
-  }}
-/>
-
-
+          src="https://res.cloudinary.com/disdu197t/image/upload/v1748671164/image__1_-removebg-preview_aqddp0.png"
+          alt="cat"
+          draggable={false}
+          className="absolute w-17 h-17 z-5 transition-transform duration-300 ease-in-out"
+          style={{
+            left: catPos.x - 35,
+            top: catPos.y - 35,
+          }}
+        />
         {gameOver && (
-          <div className="absolute top-2/5 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-red-700 text-white rounded-xl px-10 py-6 font-bold text-2xl shadow-lg z-20 text-center select-none">
+          <div className="absolute top-2/5 left-1/2 -translate-x-1/2 -translate-y-1/2 
+              bg-pink-600 text-white rounded-2xl px-10 py-6 font-bold text-3xl 
+              shadow-xl z-20 text-center select-none border-4 border-white">
             Anh đã bắt được em rồi!
             <br />
             <button
               onClick={resetGame}
-              className="mt-5 px-6 py-3 bg-blue-600 rounded-full font-semibold shadow-md hover:bg-blue-700 transition-colors"
+              className="mt-6 px-6 py-3 bg-yellow-400 text-black rounded-full font-bold 
+                shadow-md hover:bg-yellow-500 transition-all"
             >
               Chơi lại
             </button>
