@@ -9,7 +9,7 @@ const MessagesPage = () => {
 
       {/* Lời Chúc */}
       <div className="mb-6 sm:mb-10 p-4 sm:p-6 bg-green-50 rounded-lg shadow-md border-l-4 border-green-400">
-        <h4 className="text-2xl sm:text-3xl font-semibold text-green-600 mb-2 sm:mb-4">✨ Lời Chúc Ngọt Ngào ✨</h4>
+        <h4 className="text-2xl sm:text-3xl font-semibold text-green-600 mb-2 sm:mb-4">✨ Lời Chúc Ngọt Ngào</h4>
         <p className="text-base sm:text-lg leading-relaxed text-gray-700 mb-3 text-justify"> {/* Thêm text-justify */}
           Nhân ngày Quốc Tế Thiếu Nhi 1/6, anh chúc Bé yêu của anh luôn luôn vui vẻ, hạnh phúc, ăn ngon ngủ ngoan và giữ mãi nụ cười hồn nhiên, đáng yêu này nhé. Dù em có lớn bao nhiêu, em vẫn sẽ mãi là cô công chúa bé bỏng trong mắt anh.
         </p>
@@ -23,7 +23,7 @@ const MessagesPage = () => {
 
       {/* Lời Cảm Ơn */}
       <div className="mb-6 sm:mb-10 p-4 sm:p-6 bg-pink-50 rounded-lg shadow-md border-l-4 border-pink-400">
-        <h4 className="text-2xl sm:text-3xl font-semibold text-pink-600 mb-2 sm:mb-4">🌻 Lời Cảm Ơn Chân Thành 🌻</h4>
+        <h4 className="text-2xl sm:text-3xl font-semibold text-pink-600 mb-2 sm:mb-4">🌻 Lời Cảm Ơn Chân Thành</h4>
         <p className="text-base sm:text-lg leading-relaxed text-gray-700 mb-3 text-justify"> {/* Thêm text-justify */}
           Anh muốn gửi lời cảm ơn từ tận đáy lòng đến em. Cảm ơn em vì đã bước vào cuộc đời anh, mang theo cả một bầu trời nắng ấm và những gam màu rực rỡ mà trước đây anh chưa từng thấy.
         </p>
@@ -37,7 +37,7 @@ const MessagesPage = () => {
 
       {/* Lời Xin Lỗi */}
       <div className="p-4 sm:p-6 bg-red-50 rounded-lg shadow-md border-l-4 border-red-400">
-        <h4 className="text-2xl sm:text-3xl font-semibold text-red-600 mb-2 sm:mb-4">💔 Lời Xin Lỗi Từ Anh 💔</h4>
+        <h4 className="text-2xl sm:text-3xl font-semibold text-red-600 mb-2 sm:mb-4">💔 Lời Xin Lỗi Từ Anh</h4>
         <p className="text-base sm:text-lg leading-relaxed text-gray-700 mb-3 text-justify"> {/* Thêm text-justify */}
           Trong khoảng thời gian chúng ta ở bên nhau, chắc chắn có những lúc anh đã vô tâm, lạnh nhạt làm em phải buồn lòng. Anh biết mình còn nhiều thiếu sót và chưa thực sự hoàn hảo.
         </p>
